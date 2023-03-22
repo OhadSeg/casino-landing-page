@@ -1,5 +1,5 @@
 h1 {
-    font-size: 56px;
+    font-size: 35px;
     font-weight: bold;
     color: #f2f5f8;
     margin-bottom: 20px;
@@ -38,10 +38,11 @@ h1 {
   }
   
   .green-lines span {
-    width: 30px;
+    width: 298px;
     height: 4px;
-    background-color: #1BBD5C;
+    background-color: #79c000;
     margin-right: 10px;
+    margin-bottom: 5px;
   }
   
   
