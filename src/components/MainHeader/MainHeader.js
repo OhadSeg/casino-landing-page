@@ -15,7 +15,7 @@ function MainHeader() {
               <span></span>
             </div>
           </div>
-          <h1>EL JACKPOT ESTA PARA EXPLOTAR</h1>
+          <h1 className="jackpot">EL JACKPOT ESTÁ PARA EXPLOTAR</h1>
           <div className="right-lines">
             <div className="green-lines">
               <span></span>
@@ -27,7 +27,9 @@ function MainHeader() {
             </div>
           </div>
         </div>
+        <hr className="solid"/>
       </div>
+      
     );
   }
   

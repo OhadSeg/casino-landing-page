@@ -1,0 +1,17 @@
+.middle-part {
+
+    background-color: #343a40;
+  }
+
+  .jackpot {
+   
+      font-size: 35px;
+      font-weight: bold;
+      color: #f2f5f8;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    } 
+  
+  

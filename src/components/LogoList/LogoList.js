@@ -4,7 +4,7 @@ import "./LogoList.css";
 const LogoList = (props) => {
   return (
     <div>
-    <h1> Metodos para depositar y retirar</h1>
+    {/* <h1> Metodos para depositar y retirar</h1> */}
     <div className="logos-list">
     {props.logos.map((logo) => (
       <div

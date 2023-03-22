@@ -1,28 +1,20 @@
 import Header from './components/Header/Header';
+import Middle from './components/Middle/Middle';
 import './App.css';
-import GamesList from './components/GamesList/GamesList';
 import LogoList from './components/LogoList/LogoList';
-import MainHeader from './components/MainHeader/MainHeader';
-import Instructions from './components/Instructions/Instructions';
 import {paymentMethods, sponsors} from './data/sponsors'
+import Bottom from './components/Bottom/Bottom';
+
 
 function App() {
   return (
     <div>
       <Header />
-      <div className='upper-part'>
-      <MainHeader/>
-      <hr className="solid"/>
-      <GamesList />
-      <Instructions/>
-      </div>
-      <LogoList logos = {paymentMethods} />
-      <div>
-      <LogoList logos = {sponsors} />
+      <Middle/>
+      <Bottom/>
+      {/* <LogoList logos = {paymentMethods} />
+      <LogoList logos = {sponsors} /> */}
 
-      </div>
-  
-      
     </div>
   );
 }

@@ -8,20 +8,20 @@ import InstructionItem from "../InstructionItem/InstructionItem";
 const instructionList = [
     {
         id: 1,
-        title: "Registrate en Codere",
-        content:"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Regístrate en Codere",
+        content:"Si todavía no eres usuario, abre tu nueva cuenta en menos de 1 minuto.",
         icon: Icon1
     },
     {
         id: 2,
         title: "Deposita y apuesta",
-        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        content:"¡Las mejores ligas del mundo están de vuelta!",
         icon: Icon2
     },
     {
         id: 3,
         title: "Gana",
-        content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        content: "Déjate guiar por tu intuición y haz tu apuestas",
         icon: Icon3
     }
 ] 
