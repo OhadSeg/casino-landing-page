@@ -1,0 +1,50 @@
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #f2f5f8;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  } 
+
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-lines,
+  .right-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-lines {
+    margin-right: 10px;
+  }
+  
+  .right-lines {
+    margin-left: 10px;
+  }
+  
+  .green-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .green-lines span {
+    width: 30px;
+    height: 4px;
+    background-color: #1BBD5C;
+    margin-right: 10px;
+  }
+  
+  
+  .green-lines span:last-of-type {
+    margin-bottom: 0;
+}
