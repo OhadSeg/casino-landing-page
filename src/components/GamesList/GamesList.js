@@ -9,7 +9,6 @@ const GamesList = () => {
       {games.map((game) => (
         <>
           <GameItem key={game.id} image={game.photo} price={game.amount} />
-          <p>{'>'}</p>
         </>
       ))}
     </div>

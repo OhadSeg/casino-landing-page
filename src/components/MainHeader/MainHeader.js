@@ -27,7 +27,7 @@ function MainHeader() {
             </div>
           </div>
         </div>
-        <hr className="solid"/>
+        <div className="green-hr"> <hr/> </div>
       </div>
       
     );

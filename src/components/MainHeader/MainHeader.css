@@ -35,6 +35,10 @@
     margin-bottom: 5px;
   }
   
+  .green-hr{
+    background-color: #79c000;
+  }
+  
   
   .green-lines span:last-of-type {
     margin-bottom: 0;

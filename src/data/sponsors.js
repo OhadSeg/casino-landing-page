@@ -12,7 +12,8 @@ import realMadrid from "../assets/sponsorsLogos/realmadrid.png";
 import casinoFantasia from "../assets/sponsorsLogos/casinofantasia.png";
 import crownCasino from "../assets/sponsorsLogos/crownCasinos.png";
 import riverPlate from "../assets/sponsorsLogos/riverplate.jpg";
-
+import overeighteen from "../assets/Icons/+18.png" 
+import autoriza from "../assets/sponsorsLogos/autoriza.png"
 
 
 export const paymentMethods = [
@@ -77,4 +78,13 @@ export  const sponsors = [
   },
 ];
 
-// export default {paymentMethods, sponsors};
+export  const warnings = [
+  {
+    id: 15,
+    photo: autoriza,
+  },
+  {
+    id: 16,
+    photo: overeighteen,
+  },
+];
