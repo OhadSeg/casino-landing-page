@@ -1,13 +1,12 @@
 import React from "react";
-import sponsors from "../../data/sponsors";
 import "./LogoList.css";
 
-const LogoList = () => {
+const LogoList = (props) => {
   return (
     <div>
     <h1> Metodos para depositar y retirar</h1>
     <div className="logos-list">
-    {sponsors.map((logo) => (
+    {props.logos.map((logo) => (
       <div
         className="logo"
         style={{ backgroundImage: `url(${logo.photo})` }}
