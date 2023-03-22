@@ -8,8 +8,14 @@ import neteller from "../assets/sponsorsLogos/neteller.png";
 import Paypal from "../assets/sponsorsLogos/Paypal.png";
 import Paysafecard from "../assets/sponsorsLogos/Paysafecard.png";
 import Skrill from "../assets/sponsorsLogos/Skrill.png";
+import realMadrid from "../assets/sponsorsLogos/realmadrid.png";
+import casinoFantasia from "../assets/sponsorsLogos/casinofantasia.png";
+import crownCasino from "../assets/sponsorsLogos/crownCasinos.png";
+import riverPlate from "../assets/sponsorsLogos/riverplate.jpg";
 
-const sponsors = [
+
+
+export const paymentMethods = [
   {
     id: 1,
     photo: astropay,
@@ -52,4 +58,23 @@ const sponsors = [
   },
 ];
 
-export default sponsors;
+export  const sponsors = [
+  {
+    id: 11,
+    photo: crownCasino,
+  },
+  {
+    id: 12,
+    photo: casinoFantasia,
+  },
+  {
+    id: 13,
+    photo: realMadrid,
+  },
+  {
+    id: 14,
+    photo: riverPlate,
+  },
+];
+
+// export default {paymentMethods, sponsors};
