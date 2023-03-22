@@ -2,7 +2,7 @@ h1 {
     font-size: 28px;
     font-weight: bold;
     color: #00224c;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
     text-align: center;
     text-transform: uppercase;
   }
@@ -19,9 +19,11 @@ h1 {
     margin: 20px 20px 0;
   }
 
-  .text-center {
+  .button-center {
     text-align: center;
   }
   .gray-background{
     background-color: rgb(251, 246, 246);
+    padding: 20px 0;
+    margin-top: 10px;
   }

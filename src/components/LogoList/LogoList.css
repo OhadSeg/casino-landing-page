@@ -1,13 +1,13 @@
 .logos-list {
     display: flex;
-    gap: 1rem;
+    gap: 0 rem;
     justify-content: center;
   }
   
   .logos-list .logo {
-    width: 180px;
+    width: 80px;
     height: 65px;
-    margin: 20px;
+    margin: 10px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

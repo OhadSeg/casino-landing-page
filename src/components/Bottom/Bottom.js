@@ -6,7 +6,7 @@ import { paymentMethods, sponsors } from "../../data/sponsors";
 const Bottom = () => {
   return (
     <div>
-      <div className="text-center">
+      <div className="button-center">
         <button> Registrate Ahora </button>
       </div>
       <div className="gray-background">
