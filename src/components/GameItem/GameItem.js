@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./GameItem.css";
+import play from "../../assets/Icons/PlaySign.jpg"
 
 const GameItem = ({ image, price }) => {
   const [isHover, setIsHover] = useState(false);
@@ -24,7 +25,7 @@ const GameItem = ({ image, price }) => {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      {isHover && <div className="play-icon"> asdasd </div>}
+      {isHover && <div className="play-icon" style={{ backgroundImage: `url(${play})` }} ></div>}
       <button className="game-item-price">
         {" "}
         {isHover ? <span>JUEGA AHORA</span> : <span>{thisPrice}</span>}

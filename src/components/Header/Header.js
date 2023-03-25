@@ -7,7 +7,7 @@ const Header = () => {
       <div className="nav-wrapper">
         <img src={require('../../assets/codereLogo.jpg')} alt="logo" />
         <ul id="nav-mobile" className="hide-on-med-and-down">
-          {true ? (
+          { window.innerWidth > 500 ? (
             <>
               <button>accender</button>
               <button>Register</button>
