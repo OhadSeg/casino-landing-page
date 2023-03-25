@@ -1,43 +1,26 @@
-  nav {
-    background-color: #79c000;
-    height: 80px;
-    line-height: 80px;
-    overflow: hidden;
-    padding: 5px 0 15px;
-  }
-  
-  .nav-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .brand-logo {
-    font-size: 24px;
-    margin: 0 20px;
-  }
-  
-  button {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 100px;
-    background-color: #165bda;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 0 20px;
-  }
-  
-  button:hover {
-    background-color: #e8eee8;
-    color: black;
-  }
-  
-  nav ul.right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-  }
-  
+nav {
+  background-color: #79c000;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  font-size: 24px;
+  margin: 0 20px;
+}
+
+button {
+  background-color: #165bda;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #e8eee8;
+  color: black;
+}

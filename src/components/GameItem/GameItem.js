@@ -24,7 +24,7 @@ const GameItem = ({ image, price }) => {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      {isHover && <div className="game-item-hover"></div>}
+      {isHover && <div className="play-icon"> asdasd </div>}
       <button className="game-item-price">
         {" "}
         {isHover ? <span>JUEGA AHORA</span> : <span>{thisPrice}</span>}

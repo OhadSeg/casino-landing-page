@@ -1,4 +1,4 @@
-import astropay from "../assets/sponsorsLogos/Astropay.jpg";
+import visa from "../assets/sponsorsLogos/visa.png";
 import rapidTransferBrokers from "../assets/sponsorsLogos/RapidTransferBrokers.png";
 import codereFooter from "../assets/sponsorsLogos/codereFooter.png";
 import halcash from "../assets/sponsorsLogos/halcash.png";
@@ -19,7 +19,7 @@ import autoriza from "../assets/sponsorsLogos/autoriza.png"
 export const paymentMethods = [
   {
     id: 1,
-    photo: astropay,
+    photo: visa,
   },
   {
     id: 2,

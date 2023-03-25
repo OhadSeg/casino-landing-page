@@ -1,15 +1,13 @@
-import React from "react";
-import "./InstructionItem.css";
+import React from 'react';
+import './InstructionItem.css';
 
-function InstructionItem(props) {
-  const { title, content, icon, id } = props.data;
+function InstructionItem({ data }) {
+  const { title, content, icon } = data;
 
   return (
     <div className="instructions-container">
       <div className="instruction-card">
-        <div className="icon">
-          <img src={icon} alt="content" />
-        </div>
+        <img src={icon} className="icon" alt="content" />
         <div className="content">
           <h2>{title}</h2>
           <p>{content}</p>
@@ -20,11 +18,3 @@ function InstructionItem(props) {
 }
 
 export default InstructionItem;
-
-// <div className="instructions-container">
-//   <div className="instruction-card">
-//     <img src={icon} alt="content" />
-//     <h2>{title}</h2>
-//     <p>{content}</p>
-//   </div>
-// </div>

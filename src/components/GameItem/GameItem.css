@@ -1,40 +1,43 @@
 .game-item-container {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    padding: 1rem;
-    align-items: flex-end;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .game-item-container:hover {
-    filter: grayscale(0.6);
-  }
-  .game-item-price {
-    background-color: #f0d508;
-    width: fit-content;
-    padding: 0 1rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.game-item-container:hover {
+  filter: grayscale(0.6);
+}
+.game-item-price {
+  background-color: #f0d508;
+  width: fit-content;
+  padding: 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  }
+.play-icon {
+  position: absolute;
+  top: 50%;
+  color: aliceblue;
+}
 
-  
 .game-item-container:hover .game-item-price {
   background-color: #1664da;
 }
 
-
-  .game-item-price span {
-    font-size: 16px;
-    font-weight: bold;
-    flex-grow: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+.game-item-price span {
+  font-size: 16px;
+  font-weight: bold;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
