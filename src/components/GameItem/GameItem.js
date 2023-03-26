@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./GameItem.css";
-import play from "../../assets/Icons/PlaySign.jpg"
+import play from "../../assets/Icons/PlaySign.png"
 
 const GameItem = ({ image, price }) => {
   const [isHover, setIsHover] = useState(false);
