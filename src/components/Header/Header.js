@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav style={{ backgroundColor: '#79c000' }}>
       <div className="nav-wrapper">
-        <img src={require('../../assets/codereLogo.jpg')} alt="logo" />
+        <img className='logo-image' src={require('../../assets/codereLogo.jpg')} alt="logo" />
         <ul id="nav-mobile" className="hide-on-med-and-down">
           { window.innerWidth > 500 ? (
             <>
